@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 
 import static ru.javawebinar.topjava.UserTestData.ADMIN_ID;
 import static ru.javawebinar.topjava.UserTestData.USER_ID;
+import ru.javawebinar.topjava.repository.inmemory;
 
 @Repository
 public class InMemoryMealRepository implements MealRepository {
